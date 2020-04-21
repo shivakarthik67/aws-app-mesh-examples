@@ -49,7 +49,7 @@ spec:
             - containerPort: 9080
           env:
             - name: "HW_RESPONSE"
-              value: "[\"Megadeth\",\"Judas Priest\"]"
+              value: "[\"Service:Metal\",\"version:1.0\"]"
 
 ---
 
@@ -77,4 +77,4 @@ spec:
             - containerPort: 9080
           env:
             - name: "HW_RESPONSE"
-              value: "[\"Astrud Gilberto\",\"Miles Davis\"]"
+              value: "[\"Service:Jazz\",\"Version:1.0\"]"
