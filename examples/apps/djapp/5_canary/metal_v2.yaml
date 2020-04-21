@@ -21,7 +21,7 @@ spec:
             - containerPort: 9080
           env:
             - name: "HW_RESPONSE"
-              value: "[\"Megadeth (Los Angeles, California)\",\"Judas Priest (West Bromwich, England)\"]"
+              value: "[\"Service:Metal\",\"Version:2.0\"]"
 
 ---
 apiVersion: v1
