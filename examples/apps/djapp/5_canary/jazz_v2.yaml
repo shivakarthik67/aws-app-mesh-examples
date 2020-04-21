@@ -21,7 +21,7 @@ spec:
             - containerPort: 9080
           env:
             - name: "HW_RESPONSE"
-              value: "[\"Astrud Gilberto (Bahia, Brazil)\",\"Miles Davis (Alton, Illinois)\"]"
+              value: "[\"Service:Jazz\",\"Version:2.0\"]"
 
 ---
 apiVersion: v1
